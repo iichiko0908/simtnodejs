@@ -1,5 +1,3 @@
-console.log("Node.js Start");
-
 var uid;
 var argvs     = WebSocket = require('ws')
  , ws        = new WebSocket('ws://153.150.60.73:1890/websocket');
@@ -31,5 +29,5 @@ ws.on("open", function() {
 });
 
 ws.on("message", function(message) {
-	console.log(message);
+	//console.log(message);
 });
