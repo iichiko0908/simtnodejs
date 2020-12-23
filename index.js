@@ -29,9 +29,5 @@ ws.on("open", function() {
 });
 
 ws.on("message", function(message) {
-	//console.log(message);
-});
-
-ws.on("error", function(event) {
-	console.log(event);
+	console.log(message);
 });
