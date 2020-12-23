@@ -1,3 +1,5 @@
+console.log("Node.js Start");
+
 var uid;
 var argvs     = WebSocket = require('ws')
  , ws        = new WebSocket('ws://153.150.60.73:1890/websocket');
